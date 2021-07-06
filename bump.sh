@@ -25,7 +25,7 @@ if [ -d ".git" ]; then
 	changes=$(git status --porcelain)
 
 	if [ -z "${changes}" ]; then
-		bump "bower.json"
+		# bump "bower.json"
 		git add .
 		git commit -m "Bump to ${version}"
 		git tag -a "${output}" -m "${version}"
@@ -34,6 +34,4 @@ if [ -d ".git" ]; then
 	else
 		echo "Please commit staged files prior to bumping"
 	fi
-else
-	bump "bower.json"
 fi
