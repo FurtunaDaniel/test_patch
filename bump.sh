@@ -25,10 +25,12 @@ if [ -d ".git" ]; then
 	changes=$(git status --porcelain)
 
 	if [ -z "${changes}" ]; then
+		bump "bower.json"
 		git add .
 		git commit -m "Bump to ${version}"
 		git tag -a "${output}" -m "${version}"
 		git push origin --tags
+		npm publish ./
 	else
 		echo "Please commit staged files prior to bumping"
 	fi
