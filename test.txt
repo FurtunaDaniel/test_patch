@@ -1,3 +1,5 @@
 I added a change.
 Add another change.
 add a small change.
+
+try to add the release before the push to master
