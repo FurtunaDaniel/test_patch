@@ -1,0 +1,23 @@
+{
+  "name": "test_patch",
+  "version": "1.0.0",
+  "description": "test versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FurtunaDaniel/test_patch.git"
+  },
+  "keywords": [
+    "test",
+    "version"
+  ],
+  "author": "Daniel Furtuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FurtunaDaniel/test_patch/issues"
+  },
+  "homepage": "https://github.com/FurtunaDaniel/test_patch#readme"
+}
