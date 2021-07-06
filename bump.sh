@@ -27,8 +27,8 @@ if [ -d ".git" ]; then
 	if [ -z "${changes}" ]; then
 		git add .
 		git commit -m "Bump to ${version}"
-    echo "${output}"
-    echo "${version}"
+    echo ${output}
+    echo ${version}
 		git tag -a "${output}" -m "${version}"
 		git push origin --tags
 	else
