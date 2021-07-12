@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/FurtunaDaniel/test_patch/issues"
   },
-  "homepage": "https://github.com/FurtunaDaniel/test_patch#readme"
+  "homepage": "https://github.com/FurtunaDaniel/test_patch#readme",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
 }
